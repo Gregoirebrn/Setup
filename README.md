@@ -37,7 +37,39 @@ vim .local/bin/ide.sh
 
 ### Notice
 
-If you only want some of the ide you can comment the if part in the code of the one you don't want
+If you only want some of the ide you can comment the if part in the code of the one you don't want like this part :
+Fleet is commented because it doesn't work for know.
+
+```
+# if ! [ -d $FLEET ]; then
+# 	echo	"$FLEET is not installed"
+# 	curl -L	$FLEET_URL > $FLEET.tar.gz
+# 	mkdir	$FLEET
+# 	tar -xf	$FLEET.tar.gz	-C $FLEET --strip-components=1
+# 	rm -rf	$FLEET.tar.gz
+
+# 	# cd		$UTILS/$FLEET/bin
+# 	#	install extension with fleet.sh ??
+
+# 	cd		~/.local/share/applications/
+# 	echo "
+# 	[Desktop Entry]
+# 	Name=$FLEET
+# 	Version=2024.1.2
+# 	Exec=\"$UTILS/$FLEET/bin/fleet\" %u
+# 	Icon=$UTILS/$FLEET/bin/fleet.svg
+# 	Terminal=false
+# 	Type=Application
+# 	Comment=A cross-platform C and C++ IDE
+# 	Categories=Development;IDE;
+# 	StartupWMClass=jetbrains-webstorm
+# 	StartupNotify=true" > $FLEET.desktop
+
+# 	cd			~/goinfre/Utils
+# else
+# 	echo	"$FLEET already installed."
+# fi
+```
 
 ---
 
