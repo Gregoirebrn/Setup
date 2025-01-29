@@ -4,7 +4,7 @@ Command &amp; Files for automated Install on Linux of Clion, Pycharm &amp; Webst
 ### Notice
 
 If you only want some of the ide you can comment the if part of the one you don't want
-
+---
 ### Update
 
 The links of each ide should be updated by hand. To do so you can see the latest updates of each one below.
