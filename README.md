@@ -1,10 +1,8 @@
 # Setup
 Command &amp; Files for automated Install on Linux of Clion, Pycharm &amp; Webstorm
 
-### Notice
-
-If you only want some of the ide you can comment the if part of the one you don't want
 ---
+
 ### Update
 
 The links of each ide should be updated by hand. To do so you can see the latest updates of each one below.
@@ -26,12 +24,22 @@ WebStorm :
 https://data.services.jetbrains.com/products?code=WS&fields=releases
 ```
 
+---
+
 ### Install
 Copy the ide.sh in your ~/local/bin 
 
 ```
 vim .local/bin/ide.sh
 ```
+
+---
+
+### Notice
+
+If you only want some of the ide you can comment the if part in the code of the one you don't want
+
+---
 
 ### Command to launch
 
@@ -44,3 +52,4 @@ If you don't have the permissions type :
 ```
 chmod +x ide.sh
 ```
+---
