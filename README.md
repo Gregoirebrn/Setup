@@ -29,7 +29,18 @@ https://data.services.jetbrains.com/products?code=WS&fields=releases
 ### Install
 Copy the ide.sh in your ~/local/bin 
 
-### Command to launch
 ```
 vim .local/bin/ide.sh
+```
+
+### Command to launch
+
+After saving it in a file you now should do :
+```
+source ide.sh
+```
+If you don't have the permissions type :
+
+```
+chmod +x ide.sh
 ```
