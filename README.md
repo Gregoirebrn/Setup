@@ -40,6 +40,7 @@ vim .local/bin/ide.sh
 If you only want some of the ide you can comment the if part in the code of the one you don't want like this part :
 Fleet is commented because it doesn't work for know.
 
+Example of the code :
 ```
 # if ! [ -d $FLEET ]; then
 # 	echo	"$FLEET is not installed"
@@ -85,3 +86,9 @@ If you don't have the permissions type :
 chmod +x ide.sh
 ```
 ---
+### Startup Application for linux
+
+You add this command to your startup applications on the command line :
+```
+"/home/<username>/.local/bin/ide.sh" %u
+```
