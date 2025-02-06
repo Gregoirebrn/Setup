@@ -5,7 +5,9 @@ Command &amp; Files for automated Install on Linux of Clion, Pycharm &amp; Webst
 
 ### Update
 
-The links of each ide should be updated by hand. To do so you can see the latest updates of each one below.
+The links of each ide should be updated by hand in the script.
+
+To do so you can see the latest updates of each one below.
 
 Enable the pretty-print case when you clicked on a link, it will be much more redable. 
 
@@ -92,3 +94,5 @@ You add this command to your startup applications on the command line :
 ```
 "/home/<username>/.local/bin/ide.sh" %u
 ```
+
+## If you ❤️Like❤️ the project you can give it a ⭐Star⭐
