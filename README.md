@@ -95,4 +95,12 @@ You add this command to your startup applications on the command line :
 "/home/<username>/.local/bin/ide.sh" %u
 ```
 
+## Check For Updates
+
+For all editors check the OS !
+
+WebStorm    : https://www.jetbrains.com/webstorm/download/#section=linux
+
+Clion       : https://www.jetbrains.com/clion/download/#section=linux
+
 ## If you ❤️Like❤️ the project you can give it a ⭐Star⭐
