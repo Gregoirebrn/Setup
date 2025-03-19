@@ -8,7 +8,7 @@ PYCHARM="MyPyCharm"
 INSOMNIA="MyInsomnia"
 
 CLION_URL="https://download.jetbrains.com/cpp/CLion-2024.3.2.tar.gz"
-WEBSTORM_URL="https://download.jetbrains.com/webstorm/WebStorm-2024.3.2.tar.gz"
+WEBSTORM_URL="https://download.jetbrains.com/webstorm/WebStorm-2024.3.5.tar.gz"
 PYCHARM_URL="https://download.jetbrains.com/python/pycharm-professional-251.17181.23.tar.gz"
 VSCODE_URL="https://code.visualstudio.com/sha/download?build=stable&os=linux-x64"
 FLEET_URL="https://download.jetbrains.com/fleet/launcher/linux_x64/launcher-1.40.86"
