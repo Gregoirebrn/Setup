@@ -2,7 +2,7 @@
 
 WEBSTORM="MyWebStorm"
 
-WEBSTORM_URL="https://download.jetbrains.com/webstorm/WebStorm-2024.3.5.tar.gz"
+WEBSTORM_URL="https://download.jetbrains.com/webstorm/WebStorm-2025.2.3.tar.gz"
 
 UTILS="$HOME/goinfre/Utils"
 ICONS="$HOME/.dotfiles/srcs/assets/icons"
